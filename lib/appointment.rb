@@ -1,4 +1,4 @@
-class Appointment 
+class Appointment
 
   attr_accessor :date
 
@@ -6,3 +6,5 @@ class Appointment
     @date = date
     @doctor = doctor
   end
+
+end
