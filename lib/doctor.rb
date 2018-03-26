@@ -8,4 +8,9 @@ class Doctor
     @appointments = []
   end
 
+  def add_appointment(appointment)
+    @appointments << appointment
+    self.appointments.Doctor
+  end
+
 end
