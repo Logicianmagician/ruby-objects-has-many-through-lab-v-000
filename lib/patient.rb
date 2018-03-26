@@ -14,4 +14,10 @@ class Patient
     appointment.patient = self
   end
 
+  def doctors
+    self.appointments.collect do |appointment|
+      appointment.doctors
+    end
+  end
+
 end
